@@ -1,8 +1,6 @@
 This is a starting point for Go solutions to the
 ["Build Your Own Docker" Challenge](https://codecrafters.io/challenges/docker).
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to signup for early access.
 
 # Usage
 
@@ -17,7 +15,7 @@ This is a starting point for Go solutions to the
 ``` sh
 docker build -t my_docker .
 docker run --cap-add="SYS_ADMIN" my_docker \
-run codecraftersio/docker-challenge /usr/bin/docker-explorer echo hey
+run docker-challenge /usr/bin/docker-explorer echo hey
 ```
    
 # Passing the first stage
